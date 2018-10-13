@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Star Wars RPG</title>
+</head>
+<body>
+    <div class = "container"><p></p>
+        <div class="heading"><h1>Star Wars RPG!</h1></div>
+        <div class="img_contain clearfix">
+            <div class= "img_box" id="choice_1" data-cast="cast_1">
+                <p class ="cast_name"></p>
+                <img src="assets/images/Anakin Skywalker.jpeg" alt="Anakin Skywalker">
+                <p class ="health_stat"></p>
+            </div>
+            <div class= "img_box" id="choice_2" data-cast="cast_2">
+                <p class ="cast_name"></p>
+                <img src="assets/images/Leia Organa.jpeg" alt="Leia Organa">
+                <p class ="health_stat"></p>
+            </div>
+            <div class= "img_box" id="choice_3" data-cast="cast_3">
+                <p class ="cast_name"></p>
+                <img src="assets/images/Luke Skywalker.jpeg" alt="Luke Skywalker">
+                <p class ="health_stat"></p>
+            </div>
+            <div class= "img_box" id="choice_4" data-cast="cast_4">
+                <p class ="cast_name"></p>
+                <img src="assets/images/obi wan.jpeg" alt="Obi Wna">
+                <p class ="health_stat"></p>
+            </div>
+        </div> <!-- End Img_contain-->
+        <div class="player_character">
+            <p>Your Character</p>
+        </div>
+        <div>
+            <p>Enemies Available To Attack</p>
+            <div class="img_contain clearfix enemy_contain">
+                <div class= "enemy_box" id="enemy_1" data-cast="cast_1">
+                        <p class ="cast_name"></p>
+                        <img src="assets/images/c3p0.jpeg" alt="c3p0">
+                        <p class ="health_stat"></p>
+                </div>
+                <div class= "enemy_box" id="enemy_2" data-cast="cast_2">
+                    <p class ="cast_name"></p>
+                    <img src="assets/images/chewbacca.jpeg" alt="chewbacca">
+                    <p class ="health_stat"></p>
+                </div>
+                <div class= "enemy_box" id="enemy_3" data-cast="cast_3">
+                    <p class ="cast_name"></p>
+                    <img src="assets/images/greedo.jpeg" alt="greedo">
+                    <p class ="health_stat"></p>
+                </div>
+                <div class= "enemy_box" id="enemy_4" data-cast="cast_4">
+                    <p class ="cast_name"></p>
+                    <img src="assets/images/Leia Organa.jpeg" alt="Leia Organa">
+                    <p class ="health_stat"></p>
+                </div>
+            </div> <!-- End Img_contain-->
+        </div>
+        <div>
+            <p>Fight Section</p>
+        </div>
+        <div>
+            <input type="submit" value="Attack" id="attack_btn">
+        </div>
+        <div>
+            <p>Defender</p>
+            <div class="img_contain clearfix defend_contain">
+                <div class= "defend_box" id="defend_1" data-cast="cast_1">
+                        <p class ="cast_name"></p>
+                        <img src="assets/images/c3p0.jpeg" alt="c3p0">
+                        <p class ="health_stat"></p>
+                </div>
+                <div class= "defend_box" id="defend_2" data-cast="cast_2">
+                    <p class ="cast_name"></p>
+                    <img src="assets/images/chewbacca.jpeg" alt="chewbacca">
+                    <p class ="health_stat"></p>
+                </div>
+                <div class= "defend_box" id="defend_3" data-cast="cast_3">
+                    <p class ="cast_name"></p>
+                    <img src="assets/images/greedo.jpeg" alt="greedo">
+                    <p class ="health_stat"></p>
+                </div>
+                <div class= "defend_box" id="defend_4" data-cast="cast_4">
+                    <p class ="cast_name"></p>
+                    <img src="assets/images/R2D2.jpeg" alt="R2D2">
+                    <p class ="health_stat"></p>
+                </div>
+                <p class ="status" id="attack_for"></p>
+                <p class ="status" id="attack_back"></p>
+                <input type="submit" value="Restart" id="restart_btn">
+            </div> <!-- End Img_contain-->
+        </div>
+    </div><!--  end wrapper -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
+
