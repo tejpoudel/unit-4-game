@@ -23,4 +23,7 @@ This is the UCB's Star Wars game. It's intended as a challenge to put together a
 ## Installation
 Clone or download this zip file open it and simply open the index.html file and enjoy!
 
+## Link
+https://tejpoudel.github.io/unit-4-game.github.com/
+
 # Enjoy the Game! Good Luck!!!
